@@ -1,0 +1,190 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - img "AKA LAW - Anchané Kriek Attorneys"
+  - navigation:
+    - button "Home"
+    - button "Vision"
+    - button "About"
+    - button "Expertise"
+    - button "Library"
+    - button "Contact"
+  - button "Schedule Consult"
+- main:
+  - text: PRACTICING SINCE 2013
+  - heading "Recognised for delivering exceptional legal services with precision, integrity, and strategic insight." [level=1]
+  - paragraph: We aim to simplify complex legal matters and empower our clients to make informed decisions with confidence.
+  - button "Schedule Consult"
+  - button "Explore More"
+  - text: 0K COMMITMENT 0K SATISFIED CLIENTS 0K COFFEES
+  - img "Modern professional office interior with contemporary furniture, natural lighting, and sophisticated design perfect for legal consultations"
+  - heading "Our Vision" [level=2]
+  - paragraph: At AKA Law, our vision is to be a trusted leader in the legal profession, recognised for delivering exceptional legal services with precision, integrity, and strategic insight. We are committed to fostering enduring client relationships by consistently providing high-quality legal counsel tailored to each client's unique objectives.
+  - paragraph: We aim to simplify complex legal matters and empower our clients to make informed decisions with confidence. Our team's depth of knowledge, combined with a client-centric approach, ensures that every matter is handled with diligence, professionalism, and discretion.
+  - paragraph: We aspire to be more than legal advisors—we aim to be long-term partners in our clients' success, providing clarity in uncertainty and stability through change. Through our commitment to excellence and innovation, we continuously strive to raise the standard of legal practice and deliver meaningful outcomes that stand the test of time.
+  - img "Anchané Kriek, Founding Attorney of AKA Law - Professional portrait of a confident legal professional"
+  - heading "About us." [level=2]
+  - paragraph: Based in Pretoria, Anchané Kriek Attorneys Law (AKA Law) is a dynamic South African law firm dedicated to delivering premium legal services to both individuals and businesses. We offer expertise across a range of areas, including company and commercial law, property law (conveyancing), deceased estates, and asset administration (trust).
+  - paragraph: Our team is committed to achieving the best outcomes for our clients while upholding the highest standards of professional conduct. We combine in-depth legal knowledge with a forward-thinking approach to deliver solutions that are not only effective but also aligned with your long-term goals.
+  - paragraph: What sets us apart is our focus on innovation, precision, and efficiency. We work closely with our clients to develop strategies that are both legally sound and practically effective—empowering you, the client, to make confident, informed decisions at every stage.
+  - paragraph: At AKA Law, we're more than legal advisors—we're your trusted partners on the path to legal simplicity, resolution, and success.
+  - heading "Our Expertise" [level=2]
+  - paragraph: We provide comprehensive legal services across multiple practice areas, delivering expert guidance tailored to your specific needs.
+  - img
+  - img "Real Estate and Property - Professional legal services illustration"
+  - heading "Real Estate and Property" [level=3]
+  - paragraph: Our Property Law Services are designed to provide you with expert guidance and support at every stage, ensuring that your property-related matters are handled with precision and care.
+  - paragraph: Whether you're buying, selling, leasing, or developing property, our team is equipped with the legal knowledge and practical experience to navigate the intricacies of South African property law. We offer comprehensive services in conveyancing, property disputes, lease agreements, and more, always prioritising your best interests. In addition, we provide tailored services for international purchasers, assisting foreign clients in purchasing and acquiring immovable property in South Africa. With our deep understanding of local laws and regulations, we ensure a seamless and legally compliant process for overseas buyers. With a commitment to transparency, efficiency, and your peace of mind, we aim to make your property journey as smooth as possible, allowing you to proceed with confidence and clarity.
+  - button "Learn More"
+  - img
+  - img "Corporate Law - Professional legal services illustration"
+  - heading "Corporate Law" [level=3]
+  - paragraph: At AKA Law, we offer comprehensive Company Law Services to help businesses navigate the complexities of South African corporate law.
+  - paragraph: Whether you're a startup, an established company, or a multinational corporation, our team provides expert legal guidance to support your growth, protect your interests, and ensure compliance with all regulatory requirements. Our services cover a wide range of corporate matters, including company formation, corporate governance, contract law, mergers and acquisitions, dispute resolution, and compliance with South African company laws and regulations. We also specialize in Shareholders Agreements, ensuring that your business relationships are clear, legally sound, and aligned with your strategic goals. In addition, our Company Secretarial Services ensure that your company complies with all statutory and regulatory requirements, from maintaining accurate records to filing necessary documents with authorities. With our in-depth understanding of both local and international business laws, we assist clients in navigating the legal intricacies of the corporate world, offering practical solutions and strategic advice to drive success and safeguard your company's future.
+  - button "Learn More"
+  - img
+  - img "Deceased Estate - Professional legal services illustration"
+  - heading "Deceased Estate" [level=3]
+  - paragraph: At AKA Law, we understand that dealing with the loss of a loved one is never easy, and the process of managing their estate can feel overwhelming.
+  - paragraph: Our Deceased Estate Services are designed to offer you the compassionate support and expert guidance you need during this difficult time. Whether you are administering a loved one's estate according to a Will, a Trust, or Intestate Succession, we're here to help every step of the way. From handling reporting of an estate to managing asset distribution, we ensure that the deceased's wishes are honoured and that the estate is administered with care and precision. Our team also offers guidance on wills and testaments, assisting with estate taxes, and resolving any disputes that may arise among heirs or beneficiaries. We take the time to listen, provide clear advice, and offer solutions that make the process as smooth and stress-free as possible. At AKA Law, we're here to help you navigate this journey with the sensitivity and expertise you deserve, so you can focus on healing and honouring your loved one's memory.
+  - button "Learn More"
+  - img
+  - img "Trust Registration (Asset Management) - Professional legal services illustration"
+  - heading "Trust Registration (Asset Management)" [level=3]
+  - paragraph: At AKA Law, we provide expert Trust Registration and Asset Management legal services designed to protect your wealth, secure your legacy, and ensure that your assets are managed according to your wishes.
+  - paragraph: Whether you're looking to establish a trust for estate planning, tax efficiency, or wealth preservation, our team offers clear, strategic advice every step of the way. We assist with the full process of trust registration, from setting up the trust to ensuring compliance with South African trust law. Our services also include advising on the management and distribution of assets, ensuring that the trust operates smoothly and in accordance with your goals. With in-depth knowledge of local laws and a client-focused approach, we help individuals, families, and businesses manage their assets effectively, providing peace of mind that your wealth will be safeguarded for future generations. Follow our link for setting up your trust and will—we're here to make the process as straightforward as possible for you.
+  - button "Learn More"
+  - heading "Legal Document Library" [level=2]
+  - paragraph: Access professionally drafted legal documents created by our expert attorneys. Download instantly and customize for your specific needs.
+  - img
+  - textbox "Search legal documents..."
+  - button "All Documents":
+    - img
+    - text: All Documents
+  - button "Property Law":
+    - img
+    - text: Property Law
+  - button "Estate Planning":
+    - img
+    - text: Estate Planning
+  - heading "Offer To Purchase - Residential Property" [level=3]
+  - text: Property Law R 450 ZIP (PDF & Word)
+  - paragraph: Comprehensive offer to purchase agreement for residential property in South Africa, including all necessary clauses and conditions for property transactions.
+  - img
+  - text: "4.9"
+  - img
+  - text: 1850 14 pages Legally compliant Editable format Expert reviewed +1 more
+  - paragraph: Includes buyer/seller details, property description, purchase price, conditions of sale, transfer procedures, and legal protections for both parties.
+  - button "Purchase & Download":
+    - img
+    - text: Purchase & Download
+  - button "View Sample":
+    - img
+    - text: View Sample
+  - heading "Last Will & Testament" [level=3]
+  - text: Estate Planning R 550 ZIP (PDF & Word)
+  - paragraph: Legally valid will template for South African residents, including executor appointments, asset distribution, and beneficiary designations.
+  - img
+  - text: "4.9"
+  - img
+  - text: 2400 12 pages Legally binding Executor guidance Asset protection +1 more
+  - paragraph: Includes beneficiary designations, executor powers, guardian appointments, special bequests, and comprehensive estate planning provisions.
+  - button "Purchase & Download":
+    - img
+    - text: Purchase & Download
+  - button "View Sample":
+    - img
+    - text: View Sample
+  - heading "Living Will" [level=3]
+  - text: Estate Planning R 550 ZIP (PDF & Word)
+  - paragraph: Advanced healthcare directive document allowing you to specify your medical treatment preferences and end-of-life care decisions in South Africa.
+  - img
+  - text: "4.8"
+  - img
+  - text: 1200 8 pages Healthcare directive Medical decisions Legal protection +1 more
+  - paragraph: Covers medical treatment preferences, life-sustaining treatment decisions, healthcare proxy appointments, and detailed instructions for medical care.
+  - button "Purchase & Download":
+    - img
+    - text: Purchase & Download
+  - button "View Sample":
+    - img
+    - text: View Sample
+  - img
+  - heading "Legally Compliant" [level=3]
+  - paragraph: All documents are drafted by qualified attorneys and comply with South African law.
+  - img
+  - heading "Instant Download" [level=3]
+  - paragraph: Download immediately after purchase as a ZIP file containing both PDF and editable Word formats.
+  - img
+  - heading "Expert Support" [level=3]
+  - paragraph: Get professional guidance and support from our legal team when needed.
+  - heading "Contact Us" [level=2]
+  - paragraph: Ready to discuss your legal needs? Get in touch with our team for expert guidance and personalized solutions.
+  - heading "Send us a Message" [level=3]
+  - text: Full Name *
+  - textbox "Full Name *"
+  - text: Email Address *
+  - textbox "Email Address *"
+  - text: Phone Number
+  - textbox "Phone Number"
+  - text: Subject *
+  - combobox: Select a subject
+  - text: Message *
+  - textbox "Message *"
+  - button "Send Message" [disabled]:
+    - img
+    - text: Send Message
+  - paragraph: "* Required fields. This will open your email client to send the message."
+  - img
+  - heading "Our Office" [level=3]
+  - paragraph: 2 Lenchen Park Lenchen Avenue South Centurion, 0046 South Africa
+  - img
+  - heading "Contact Details" [level=3]
+  - paragraph:
+    - strong: "Phone:"
+    - link "+27 82 562 3826":
+      - /url: tel:+27825623826
+  - paragraph:
+    - strong: "Email:"
+    - link "anchane@akalaw.co.za":
+      - /url: mailto:anchane@akalaw.co.za
+  - paragraph:
+    - strong: "Fax:"
+    - text: 086 202 7191
+  - paragraph:
+    - strong: "Website:"
+    - link "www.akalaw.co.za":
+      - /url: https://www.akalaw.co.za
+  - img
+  - heading "Office Hours" [level=3]
+  - paragraph:
+    - strong: "Monday - Friday:"
+    - text: 8:00 AM - 5:00 PM
+  - paragraph:
+    - strong: "Saturday:"
+    - text: 9:00 AM - 1:00 PM
+  - paragraph:
+    - strong: "Sunday:"
+    - text: Closed
+  - paragraph: Emergency consultations available by appointment
+  - button "Minimize social media":
+    - img
+  - heading "FOLLOW US" [level=3]
+  - paragraph: Stay connected with AKA Law for legal insights and updates
+  - link "Facebook":
+    - /url: "#"
+    - img
+    - text: Facebook
+  - link "Twitter":
+    - /url: "#"
+    - img
+    - text: Twitter
+  - link "Instagram":
+    - /url: "#"
+    - img
+    - text: Instagram
+- button "Open Next.js Dev Tools":
+  - img
+- alert
+```
