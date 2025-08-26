@@ -5,8 +5,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'AKA Law',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  description: 'Developed by X Spark',
+  generator: 'X Spark',
 }
 
 export default function RootLayout({
