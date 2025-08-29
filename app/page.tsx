@@ -1141,11 +1141,29 @@ Please contact the client to confirm the appointment details.
                           <Input
                             id="phone"
                             type="tel"
-                            placeholder="+27 12 345 6789"
+                            placeholder="+27 82 562 3826"
                             value={formData.phone}
-                            onChange={(e) => handleInputChange("phone", e.target.value)}
+                            onChange={(e) => {
+                              const value = e.target.value;
+                              // Allow only numbers, spaces, +, -, and parentheses
+                              const cleaned = value.replace(/[^\d\s+\-()]/g, '');
+                              handleInputChange("phone", cleaned);
+                            }}
+                            onBlur={(e) => {
+                              const value = e.target.value;
+                              if (value && !/^[\+]?[0-9\s\-\(\)]{10,15}$/.test(value)) {
+                                e.target.classList.add('border-red-500');
+                              } else {
+                                e.target.classList.remove('border-red-500');
+                              }
+                            }}
                             className="border-gray-300 focus:border-primary focus:ring-primary"
                           />
+                          {formData.phone && !/^[\+]?[0-9\s\-\(\)]{10,15}$/.test(formData.phone) && (
+                            <p className="text-red-500 text-xs mt-1">
+                              Please enter a valid phone number (e.g., +27 82 562 3826)
+                            </p>
+                          )}
                         </div>
                         <div>
                           <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
@@ -1361,21 +1379,29 @@ Please contact the client to confirm the appointment details.
 
                   <div className="space-y-4">
                     <a
-                      href="#"
+                      href="https://www.facebook.com/share/1BZYAPtrrD/?mibextid=wwXIfr"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center space-x-3 text-white hover:text-primary-200 transition-colors group"
                     >
                       <Facebook className="w-5 h-5 group-hover:scale-110 transition-transform" />
                       <span className="text-sm font-medium">Facebook</span>
                     </a>
                     <a
-                      href="#"
+                      href="https://x.com/AKALAW101"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center space-x-3 text-white hover:text-primary-200 transition-colors group"
                     >
-                      <Twitter className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                      <span className="text-sm font-medium">Twitter</span>
+                      <svg className="w-5 h-5 group-hover:scale-110 transition-transform" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                      </svg>
+                      <span className="text-sm font-medium">X</span>
                     </a>
                     <a
-                      href="#"
+                      href="https://www.instagram.com/akalaw101"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center space-x-3 text-white hover:text-primary-200 transition-colors group"
                     >
                       <Instagram className="w-5 h-5 group-hover:scale-110 transition-transform" />

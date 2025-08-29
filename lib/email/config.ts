@@ -18,7 +18,7 @@ console.log('🔧 Email service initializing...', {
 export const emailConfig = {
   from: 'info@akalaw.co.za', // Your verified domain email
   fromName: 'AKA Law',
-  adminEmail: 'websales@akalaw.co.za',
+  adminEmail: 'info@akalaw.co.za',
   replyTo: 'info@akalaw.co.za'
 }
 

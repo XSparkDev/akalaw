@@ -126,19 +126,9 @@ export function PaymentModal({ isOpen, onClose, document }: PaymentModalProps) {
     <Dialog open={isOpen} onOpenChange={handleModalChange}>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <div className="flex items-center justify-between">
-            <DialogTitle className="text-xl font-bold text-gray-900">
-              Complete Your Purchase
-            </DialogTitle>
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={() => handleModalChange(false)}
-              disabled={isProcessing}
-            >
-              <X className="h-4 w-4" />
-            </Button>
-          </div>
+          <DialogTitle className="text-xl font-bold text-gray-900">
+            Complete Your Purchase
+          </DialogTitle>
         </DialogHeader>
 
         <div className="space-y-6">
